@@ -3,9 +3,9 @@ layout: default
 title: Home
 ---
 
-# 你好,我是 Zhz 👋
+# 你好,我是 朱瀚钊 👋
 
-电子科技大学 (UESTC) 学生。
+电子科技大学 (UESTC) 24级信息与通信工程学院电子信息工程本科生。
 
 ## 关于我
 
@@ -13,14 +13,17 @@ title: Home
 
 ## 技能
 
-- 技能 1
-- 技能 2
+- 熟悉嵌入式编程
+- 熟悉c、c++、python等编程语言
 
-## 项目
+## 获奖
 
-- [项目名](https://github.com/ZH-rgb-create/项目仓库) — 简介
+- 2025年国家奖学金
+- 2025年第十七届全国大学生数学竞赛省级一等奖
+- 2025年全国大学生电子设计大赛（四川赛区）省级三等奖
+- 2025年校级优秀共青团员
 
 ## 联系方式
 
 - GitHub: [@ZH-rgb-create](https://github.com/ZH-rgb-create)
-- Email: your-email@example.com
+- Email: 1838638742@qq.com
