@@ -1058,10 +1058,3 @@ h3 {
     transform: none;
   }
 }
-.hero-visual {
-  display: none;
-}
-
-.hero-grid {
-  grid-template-columns: 1fr;
-}
