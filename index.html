@@ -1,0 +1,352 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="朱瀚钊的个人主页，展示电子信息工程学习经历、嵌入式控制项目、无线通信科研与竞赛成果。"
+    />
+    <meta name="theme-color" content="#0b2239" />
+    <title>朱瀚钊｜电子信息工程 · 嵌入式控制 · 无线通信</title>
+    <link rel="icon" href="assets/uestc-logo.jpg" />
+    <script>
+      document.documentElement.classList.add("js");
+    </script>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">跳到主要内容</a>
+
+    <header class="site-header" data-header>
+      <div class="container nav-wrap">
+        <a class="brand" href="#top" aria-label="返回首页">
+          <span class="brand-mark">ZH</span>
+          <span>
+            <strong>朱瀚钊</strong>
+            <small>Electronic Information Engineering</small>
+          </span>
+        </a>
+
+        <nav class="site-nav" aria-label="主要导航">
+          <a href="#about">关于</a>
+          <a href="#projects">项目</a>
+          <a href="#experience">经历</a>
+          <a href="#honors">荣誉</a>
+          <a href="#contact">联系</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="top">
+        <div class="hero-grid container">
+          <div class="hero-copy reveal">
+            <p class="eyebrow">UESTC · 电子信息工程</p>
+            <h1>
+              你好，我是朱瀚钊。
+              <span>我关注控制系统如何从模型真正落到硬件上。</span>
+            </h1>
+            <p class="hero-summary">
+              电子科技大学信息与通信工程学院本科生。学习与实践集中于嵌入式控制、
+              电力电子系统联调，以及 AIRS / IRS 辅助无线通信优化。
+            </p>
+
+            <div class="hero-actions">
+              <a class="button button-primary" href="#projects">查看项目</a>
+              <a class="button button-quiet" href="downloads/朱瀚钊-个人简历.pptx" download>
+                下载简历
+              </a>
+            </div>
+
+            <ul class="hero-facts" aria-label="核心信息">
+              <li>
+                <strong>3.98</strong>
+                <span>GPA / 4.00</span>
+              </li>
+              <li>
+                <strong>3 / 180</strong>
+                <span>专业排名 · 前 1.67%</span>
+              </li>
+              <li>
+                <strong>550 / 520</strong>
+                <span>CET-4 / CET-6</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="hero-visual reveal" aria-label="个人照片">
+            <div class="portrait-frame">
+              <img src="assets/portrait.png" alt="朱瀚钊证件照" />
+              <span class="portrait-orbit" aria-hidden="true"></span>
+            </div>
+            <div class="status-card">
+              <span class="status-dot" aria-hidden="true"></span>
+              <div>
+                <strong>当前研究</strong>
+                <span>有源 IRS 辅助通信系统保密速率优化</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="hero-line" aria-hidden="true"></div>
+      </section>
+
+      <section class="section about" id="about">
+        <div class="container section-grid">
+          <div class="section-heading reveal">
+            <p class="section-index">01 / ABOUT</p>
+            <h2>成绩是起点，<br />系统落地能力才是区分度。</h2>
+          </div>
+
+          <div class="about-content reveal">
+            <p class="lead">
+              我的优势不是简单罗列软件名称，而是能从需求分析开始，把控制逻辑、嵌入式实现和软硬件联调连成完整工作链。
+            </p>
+            <div class="about-columns">
+              <div>
+                <h3>教育背景</h3>
+                <p>电子科技大学</p>
+                <p>信息与通信工程学院（A+ 学科）</p>
+                <p>电子信息工程</p>
+              </div>
+              <div>
+                <h3>关注方向</h3>
+                <p>嵌入式控制与实时实现</p>
+                <p>电力电子系统协同调试</p>
+                <p>无线通信建模与联合优化</p>
+              </div>
+            </div>
+            <p class="course-note">
+              核心课程：软件设计思想与方法 I（99）、大学物理 II（95）、微积分
+              II（94）、电路分析与电子线路（93）、电磁场与波（92）。
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section projects-section" id="projects">
+        <div class="container">
+          <div class="section-top reveal">
+            <div>
+              <p class="section-index">02 / SELECTED WORK</p>
+              <h2>项目不是关键词集合，<br />而是我具体解决过的问题。</h2>
+            </div>
+            <p>
+              以下内容仅使用已有简历中可核实的信息，没有补写未经验证的性能数据、论文或成果。
+            </p>
+          </div>
+
+          <article class="project project-featured reveal">
+            <div class="project-number">01</div>
+            <div class="project-main">
+              <div class="project-meta">
+                <span>全国大学生电子设计竞赛</span>
+                <time datetime="2025-06">2025.06 — 2025.08</time>
+              </div>
+              <h3>能量回馈的变流器负载试验装置</h3>
+              <p class="project-intro">
+                面向三相变流器负载试验，构建具备能量回馈能力的装置。设计目标包括
+                50 Hz、线电压 32 V、额定线电流 2 A，输出交流电压 THD 不大于 2%。
+              </p>
+              <div class="project-details">
+                <div>
+                  <span>我的职责</span>
+                  <p>
+                    负责 STM32 控制软件，从需求分析、外设配置和代码生成，到采样、SVPWM
+                    与基础闭环控制的实现和调试。
+                  </p>
+                </div>
+                <div>
+                  <span>协同工作</span>
+                  <p>
+                    参与系统板和功率板联调，在实际测试中定位软硬件协同问题，优化系统稳定性与响应。
+                  </p>
+                </div>
+              </div>
+              <ul class="tag-list" aria-label="项目技术">
+                <li>STM32</li>
+                <li>STM32CubeMX</li>
+                <li>SVPWM</li>
+                <li>闭环控制</li>
+                <li>软硬件联调</li>
+              </ul>
+            </div>
+            <div class="project-proof" aria-hidden="true">
+              <div class="wave-grid">
+                <span></span><span></span><span></span><span></span><span></span>
+              </div>
+              <strong>50 Hz</strong>
+              <p>三相对称正弦交流输出</p>
+              <div class="proof-metrics">
+                <span><b>32 V</b>线电压</span>
+                <span><b>2 A</b>额定线电流</span>
+                <span><b>≤ 2%</b>THD 目标</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project reveal">
+            <div class="project-number">02</div>
+            <div class="project-main">
+              <div class="project-meta">
+                <span>无线通信科研项目</span>
+                <time datetime="2026-03">2026.03 — 至今</time>
+              </div>
+              <h3>有源 IRS 辅助通信系统保密速率优化</h3>
+              <p class="project-intro">
+                在基站与用户直连受阻、存在窃听者的场景下，通过无人机搭载有源智能反射面建立辅助通信链路，
+                并以最大化系统保密速率为目标开展建模与优化。
+              </p>
+              <div class="project-details">
+                <div>
+                  <span>系统建模</span>
+                  <p>
+                    构建基站、用户与窃听者的无线通信模型，考虑 AIRS 三维部署、欧拉角姿态及角度相关反射特性。
+                  </p>
+                </div>
+                <div>
+                  <span>优化变量</span>
+                  <p>
+                    联合考虑反射相位、放大因子、基站波束成形向量、位置和三维姿态角，并加入单位模、功率及有效反射角约束。
+                  </p>
+                </div>
+              </div>
+              <ul class="tag-list" aria-label="项目技术">
+                <li>AIRS / IRS</li>
+                <li>无线系统建模</li>
+                <li>波束成形</li>
+                <li>保密速率</li>
+                <li>联合优化</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section experience-section" id="experience">
+        <div class="container section-grid">
+          <div class="section-heading reveal">
+            <p class="section-index">03 / EXPERIENCE</p>
+            <h2>把个人能力转化为团队可复用的经验。</h2>
+          </div>
+
+          <div class="timeline reveal">
+            <article>
+              <span class="timeline-dot" aria-hidden="true"></span>
+              <div class="timeline-head">
+                <h3>学院科协技术部副部长</h3>
+                <span>组织与技术支持</span>
+              </div>
+              <p>
+                协助组织院级电子设计竞赛，参与竞赛流程筹备与实施；负责训练题发放和讲解，
+                帮助参赛同学理解解题思路与关键知识点。
+              </p>
+            </article>
+            <article>
+              <span class="timeline-dot" aria-hidden="true"></span>
+              <div class="timeline-head">
+                <h3>班级留学委员</h3>
+                <span>信息整理与分享</span>
+              </div>
+              <p>
+                组织学习分享会，系统整理留学申请流程、院校选择及准备要点；推动班级学习氛围建设，
+                助力班级获评校级优秀班级。
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section honors-section" id="honors">
+        <div class="container">
+          <div class="section-top reveal">
+            <div>
+              <p class="section-index">04 / HONORS & SKILLS</p>
+              <h2>学业证明基础，竞赛检验执行。</h2>
+            </div>
+          </div>
+
+          <div class="honors-layout">
+            <ol class="honor-list reveal">
+              <li>
+                <span>2025</span>
+                <strong>全国大学生电子设计竞赛</strong>
+                <em>省部级三等奖</em>
+              </li>
+              <li>
+                <span>2025</span>
+                <strong>全国大学生数学竞赛</strong>
+                <em>省部级一等奖</em>
+              </li>
+              <li>
+                <span>前 3%</span>
+                <strong>国家奖学金</strong>
+                <em>学业与综合表现</em>
+              </li>
+              <li>
+                <span>前 10%</span>
+                <strong>校优秀学生一等奖学金</strong>
+                <em>校级荣誉</em>
+              </li>
+              <li>
+                <span>1.2%</span>
+                <strong>校级优秀共青团员</strong>
+                <em>校级荣誉</em>
+              </li>
+            </ol>
+
+            <div class="skills reveal">
+              <div>
+                <span class="skill-index">A</span>
+                <h3>嵌入式与控制</h3>
+                <p>Keil、STM32CubeMX、Multisim、采样、SVPWM、基础闭环控制</p>
+              </div>
+              <div>
+                <span class="skill-index">B</span>
+                <h3>编程</h3>
+                <p>C、C++、Python</p>
+              </div>
+              <div>
+                <span class="skill-index">C</span>
+                <h3>科研</h3>
+                <p>无线系统建模、联合优化问题构建、英文技术文献阅读</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact" id="contact">
+        <div class="container contact-grid reveal">
+          <div>
+            <p class="section-index">05 / CONTACT</p>
+            <h2>期待讨论嵌入式控制、通信科研或项目合作。</h2>
+          </div>
+          <div class="contact-links">
+            <a href="mailto:1838638742@qq.com">
+              <span>Email</span>
+              <strong>1838638742@qq.com</strong>
+            </a>
+            <a href="https://github.com/ZH-rgb-create" target="_blank" rel="noreferrer">
+              <span>GitHub</span>
+              <strong>@ZH-rgb-create</strong>
+            </a>
+            <a href="tel:+8618158960907">
+              <span>Phone</span>
+              <strong>181 5896 0907</strong>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>© <span data-year></span> 朱瀚钊</p>
+        <p>Built for clarity, not decoration.</p>
+      </div>
+    </footer>
+  </body>
+</html>
